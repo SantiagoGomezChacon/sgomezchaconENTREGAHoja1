@@ -25,9 +25,10 @@ public class Ejercicio6 {
 
     public static void main(String[] args) {
         int i = 0;
-        while (i < 101) {
+        while (i < 1001) {
             if (esprimo(i)) {
                 System.out.println("El numero " + i + " es primo");
+
             }
             i++;
         }

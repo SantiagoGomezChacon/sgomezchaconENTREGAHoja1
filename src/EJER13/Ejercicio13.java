@@ -22,8 +22,7 @@ public class Ejercicio13 {
 
     public static void main(String[] args) {
         String cadena = "cadena de caracteres";
-        String cadinvertida = invertircadena(cadena);
-        System.out.println("La cadena original es: " + cadena);
-        System.out.println("La cadena invertida es: " + cadinvertida);
+        String CadenaInvertida = invertircadena(cadena);
+        System.out.println(CadenaInvertida);
     }
 }

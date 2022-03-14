@@ -36,6 +36,6 @@ public class Ejercicio12 {
 
     public static void main(String[] args) {
         int vocales = contadorvocales("cadena de caracteres");
-        System.out.println("Hay " + vocales + " vocales");
+        System.out.println(vocales);
     }
 }

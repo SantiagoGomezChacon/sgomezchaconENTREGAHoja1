@@ -25,8 +25,9 @@ public class EJER14 {
         for (int i = cadena.length() - 1; i > -1; i--) {
             CadenaInvertida = CadenaInvertida + cadena.charAt(i);
         }
-        String CadenaInveridaSinEspaciosAcentos = CadenaInvertida.replace('á', 'a').replace('é', 'e').replace('ì', 'i').replace('ò', 'ò').replace('ù', 'u').replace(" ", "");
-        return CadenaInveridaSinEspaciosAcentos;
+        String CadenaInvertidaSinEspacios = CadenaInvertida.replace(" ", "");
+        String CadenaInveridaSinEspaciossinAcentos = CadenaInvertidaSinEspacios.replace('á', 'a').replace('é', 'e').replace('ì', 'i').replace('ò', 'ò').replace('ù', 'u');
+        return CadenaInveridaSinEspaciossinAcentos;
     }
 
     public static String CadenaNormal(String cadena) {
