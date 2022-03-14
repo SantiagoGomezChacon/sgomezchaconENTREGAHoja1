@@ -34,6 +34,7 @@ public class EJER14 {
         String Cadena = cadena;
         String CadenaSinEspaciosAcentos = "";
         CadenaSinEspaciosAcentos = Cadena.replace('á', 'a').replace('é', 'e').replace('ì', 'i').replace('ò', 'ò').replace('ù', 'u').replace(" ", "");
+        CadenaSinEspaciosAcentos = CadenaSinEspaciosAcentos;
         return CadenaSinEspaciosAcentos;
     }
 }
